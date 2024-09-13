@@ -13,6 +13,7 @@ export default function Home() {
       <Projects />
       <DesignProcess />
       <About />
+      <Footer />
     </div>
   );
 }
