@@ -1,20 +1,24 @@
 import Image from "next/image";
+import Link from "next/link";
 
 interface ProjectCardProps {
-    image: string;
-    type: string;
-    title: string;
+  image: string;
+  type: string;
+  title: string;
+  url: string;
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({image, type, title}) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ image, type, title, url }) => {
   return (
-    <div>
-        <div className="border border-[#333333] p-[34px] rounded-lg">
-            <Image className="rounded-lg" src={image} alt="design-image" width={464} height={469} />
+    <Link href={url}>
+      <div className="group cursor-pointer">
+        <div className="border border-[#333333] p-[34px] rounded-lg transition-colors duration-300 group-hover:bg-[#333333]">
+          <Image className="rounded-lg" src={image} alt="design-image" width={464} height={469} />
         </div>
         <p className="mt-[20px] text-[14px] leading-16px] text-[#a6a6a6] mb-[4px]">{type}</p>
         <p className="leading-[24px]">{title}</p>
-    </div>
+      </div>
+    </Link>
   )
 }
 
