@@ -10,8 +10,8 @@ function Work() {
                 </div>
             </Link>
             <p className="text-[14px] leading-[21px] text-[#d9d9d9] mb-[4px]">Mobile App Design</p>
-            <h1 className="text-[32px] leading-[38px] font-medium">Shop Easy App</h1>
-            <p className="text-[#d9d9d9] text-[20px] leading-[32px] max-w-[814px] mt-[16px] mb-[32px]">One user problem for women are the lack of sufficient product details. Incomplete descriptions, low-quality images, and limited customer reviews make it difficult for them to make informed purchasing decisions.</p>
+            <h1 className="text-[32px] leading-[38px] font-medium">Letters App</h1>
+            <p className="text-[#d9d9d9] text-[20px] leading-[32px] max-w-[814px] mt-[16px] mb-[32px]">Design a social media app called Letters. Each persons page is a set of beautiful Letters. Long form, like Blog Posts, but with Photos. AI assisted writing. Letters must always be addressed to some. Letters can have letter replies.</p>
             <div className="flex gap-[44px]">
                 <div className="flex flex-col gap-[4px]">
                     <h5 className="text-[18px] font-medium leading-[26px]">Design Process</h5>
@@ -26,16 +26,19 @@ function Work() {
             </div>
             <div className="flex flex-col items-center mt-[100px] gap-[40px]">
                 <div className="border border-[#333333] p-[60px] rounded-[12px] transition-colors duration-300 hover:bg-[#333333]">
-                    <Image src="/shop-easy-1.jpg" alt="shop-easy" width={708} height={477} />
+                    <Image src="/letters-app-1.jpg" alt="shop-easy" width={708} height={477} />
                 </div>
                 <div className="border border-[#333333] p-[60px] rounded-[12px] transition-colors duration-300 hover:bg-[#333333]">
-                    <Image src="/shop-easy-2.jpg" alt="shop-easy" width={708} height={477} />
+                    <Image src="/letters-app-2.jpg" alt="shop-easy" width={708} height={477} />
                 </div>
                 <div className="border border-[#333333] p-[60px] rounded-[12px] transition-colors duration-300 hover:bg-[#333333]">
-                    <Image src="/shop-easy-3.jpg" alt="shop-easy" width={708} height={477} />
+                    <Image src="/letters-app-3.jpg" alt="shop-easy" width={708} height={477} />
                 </div>
                 <div className="border border-[#333333] p-[60px] rounded-[12px] transition-colors duration-300 hover:bg-[#333333]">
-                    <Image src="/shop-easy-4.jpg" alt="shop-easy" width={708} height={477} />
+                    <Image src="/letters-app-4.jpg" alt="shop-easy" width={708} height={477} />
+                </div>
+                <div className="border border-[#333333] p-[60px] rounded-[12px] transition-colors duration-300 hover:bg-[#333333]">
+                    <Image src="/letters-app-5.jpg" alt="shop-easy" width={708} height={477} />
                 </div>
             </div>
         </div>
