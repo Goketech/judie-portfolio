@@ -25,16 +25,16 @@ function Work() {
                 </div>
             </div>
             <div className="flex flex-col items-center mt-[100px] gap-[40px]">
-                <div className="border border-[#333333] p-[60px] rounded-[12px] transition-colors duration-300 hover:bg-[#121212] hover:border-0">
+                <div className="border border-[#333333] p-[16px] md:p-[60px] rounded-[12px] transition-colors duration-300 hover:bg-[#121212] hover:border-0">
                     <Image src="/shop-easy-1.jpg" alt="shop-easy" width={708} height={477} />
                 </div>
-                <div className="border border-[#333333] p-[60px] rounded-[12px] transition-colors duration-300 hover:bg-[#121212] hover:border-0">
+                <div className="border border-[#333333] p-[16px] md:p-[60px] rounded-[12px] transition-colors duration-300 hover:bg-[#121212] hover:border-0">
                     <Image src="/shop-easy-2.jpg" alt="shop-easy" width={708} height={477} />
                 </div>
-                <div className="border border-[#333333] p-[60px] rounded-[12px] transition-colors duration-300 hover:bg-[#121212] hover:border-0">
+                <div className="border border-[#333333] p-[16px] md:p-[60px] rounded-[12px] transition-colors duration-300 hover:bg-[#121212] hover:border-0">
                     <Image src="/shop-easy-3.jpg" alt="shop-easy" width={708} height={477} />
                 </div>
-                <div className="border border-[#333333] p-[60px] rounded-[12px] transition-colors duration-300 hover:bg-[#121212] hover:border-0">
+                <div className="border border-[#333333] p-[16px] md:p-[60px] rounded-[12px] transition-colors duration-300 hover:bg-[#121212] hover:border-0">
                     <Image src="/shop-easy-4.jpg" alt="shop-easy" width={708} height={477} />
                 </div>
             </div>

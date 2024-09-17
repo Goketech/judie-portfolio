@@ -25,19 +25,19 @@ function Work() {
                 </div>
             </div>
             <div className="flex flex-col items-center mt-[100px] gap-[40px]">
-                <div className="border border-[#333333] p-[60px] rounded-[12px] transition-colors duration-300 hover:bg-[#121212] hover:border-0">
+                <div className="border border-[#333333] p-[16px] md:p-[60px] rounded-[12px] transition-colors duration-300 hover:bg-[#121212] hover:border-0">
                     <Image src="/carter-shop-1.jpg" alt="carter-shop" width={708} height={477} />
                 </div>
-                <div className="border border-[#333333] p-[60px] rounded-[12px] transition-colors duration-300 hover:bg-[#121212] hover:border-0">
+                <div className="border border-[#333333] p-[16px] md:p-[60px] rounded-[12px] transition-colors duration-300 hover:bg-[#121212] hover:border-0">
                     <Image src="/carter-shop-2.jpg" alt="carter-shop" width={708} height={477} />
                 </div>
-                <div className="border border-[#333333] p-[60px] rounded-[12px] transition-colors duration-300 hover:bg-[#121212] hover:border-0">
+                <div className="border border-[#333333] p-[16px] md:p-[60px] rounded-[12px] transition-colors duration-300 hover:bg-[#121212] hover:border-0">
                     <Image src="/carter-shop-3.jpg" alt="carter-shop" width={708} height={477} />
                 </div>
-                <div className="border border-[#333333] p-[60px] rounded-[12px] transition-colors duration-300 hover:bg-[#121212] hover:border-0">
+                <div className="border border-[#333333] p-[16px] md:p-[60px] rounded-[12px] transition-colors duration-300 hover:bg-[#121212] hover:border-0">
                     <Image src="/carter-shop-4.jpg" alt="carter-shop" width={708} height={477} />
                 </div>
-                <div className="border border-[#333333] p-[60px] rounded-[12px] transition-colors duration-300 hover:bg-[#121212] hover:border-0">
+                <div className="border border-[#333333] p-[16px] md:p-[60px] rounded-[12px] transition-colors duration-300 hover:bg-[#121212] hover:border-0">
                     <Image src="/carter-shop-5.jpg" alt="carter-shop" width={708} height={477} />
                 </div>
             </div>
