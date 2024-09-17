@@ -3,8 +3,8 @@ import Link from "next/link"
 
 const Footer = () => {
     return (
-        <div className="mt-[264px]" id="contact">
-            <div className="flex flex-col place-items-end mr-[100px]">
+        <div className="mt-[50px] md:mt-[264px] px-[24px]" id="contact">
+            <div className="flex flex-col md:place-items-end mr-[100px]">
                 <div>
                     <p className="text-[#A3A3A3] text-[14px] leading-[16px] mb-[8px]">Contact</p>
                     <Link className="text-[16px] leading-[24px] text-[#FAFAFA] " href="mailto:florencekey22@gmail.com">florencekey22@gmail.com</Link>
@@ -17,9 +17,9 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="mt-[53px] ml-[100px] mb-[100px]">
+            <div className="mt-[53px] md:ml-[100px] mb-[100px]">
                 <p className="text-[#FAFAFA]">Looking for a Designer?</p>
-                <h1 className="text-[48px] text-[#ED7377] leading-[67px]">LET&apos;S WORK TOGETHER</h1>
+                <h1 className="text-[30px] md:text-[48px] text-[#ED7377] leading-[48px] md:leading-[67px]">LET&apos;S WORK TOGETHER</h1>
             </div>
         </div>
     )

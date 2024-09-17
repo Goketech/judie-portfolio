@@ -2,8 +2,8 @@ import Image from "next/image"
 
 const About = () => {
   return (
-    <div className="flex justify-between px-[100px] py-[50px] mt-[100px] bg-[#000000]">
-        <div className="max-w-[529px]">
+    <div className="flex flex-col lg:flex-row justify-between px-[22px] md:px-[100px] py-[50px] mt-[100px] bg-[#000000]">
+        <div className="max-w-[529px] mb-[50px] lg:mb-0">
             <h5 className="text-[36px] leading-[52px] mb-[30px]">About me</h5>
             <p className="text-[16px] leading-[28px] mb-[20px]">Hello, I&apos;m Florence</p>
             <p className="text-[16px] leading-[28px] mb-[20px]">I&apos;m committed to helping companies create beautiful, usable solutions from start to finish</p>

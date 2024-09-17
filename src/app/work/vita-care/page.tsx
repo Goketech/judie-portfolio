@@ -3,7 +3,7 @@ import Link from "next/link"
 
 function Work() {
     return (
-        <div className="mx-[100px]">
+        <div className="mx-[22px] md:mx-[100px]">
             <Link href="/">
                 <div className="cursor-pointer border border-[#333333] p-[12px] rounded-[8px] w-[56px] mb-[40px]">
                     <Image src="/arrow-left.svg" alt="arrow" width={32} height={32} />
