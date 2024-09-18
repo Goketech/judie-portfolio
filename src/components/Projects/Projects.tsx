@@ -2,7 +2,7 @@ import ProjectCard from "../ProjectCard/ProjectCard"
 
 const Projects = () => {
   return (
-    <div className="mt-[100px]">
+    <div className="mt-[100px] max-w-screen-xl xl:mx-auto">
         <h2 className="mb-[52px] text-center text-[20px] md:text-[36px] leading-[26px] md:leading-[48px]">EXPLORE A SELECTION OF CRAFTED WORK, <br className="hidden md:block" />DESIGNED FROM SCRATCH</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 mx-[22px] md:mx-[100px] gap-x-[24px] gap-y-[40px]">
             <ProjectCard url="/work/shop-easy" image="/image1.jpg" title="Shop Easy" type="Mobile App Design" />

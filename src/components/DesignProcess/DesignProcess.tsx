@@ -2,7 +2,7 @@ import ProcessCard from '../ProcessCard/ProcessCard'
 
 const DesignProcess = () => {
     return (
-        <div className='mx-[22px] md:mx-[100px] mt-[100px]'>
+        <div className='max-w-screen-xl xl:mx-auto mx-[22px] md:mx-[100px] mt-[100px]'>
             <p className='text-[#FF5956]  text-[14px] leading-[18px]'>What we do</p>
             <h3 className='text-[24px] md:text-[32px] leading-[36px] md:leading-[48px] mb-[40px] md:mb-[80px]'>Bringing Your Ideas to life with thoughtful design and user-focused solutions.</h3>
             <div className='flex flex-col px-[4px] md:px-0 md:items-center gap-[24px]'>
