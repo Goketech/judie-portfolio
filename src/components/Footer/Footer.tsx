@@ -10,10 +10,10 @@ const Footer = () => {
                     <Link className="text-[16px] leading-[24px] text-[#FAFAFA] " href="mailto:florencekey22@gmail.com">florencekey22@gmail.com</Link>
                     <p className="mt-[24px] text-[16px] leading-[16px] mb-[8px]">Say hi</p>
                     <div className="flex gap-[16px] bg-[#0F0F0F] px-[16px] py-[8px] rounded-[300px]">
-                        <Image src="/linkedin.svg" alt="linkedin" width={32} height={32} />
-                        <Image src="/behance.svg" alt="behance" width={32} height={32} />
-                        <Image src="/dribble.svg" alt="dribble" width={32} height={32} />
-                        <Image src="/mail.svg" alt="mail" width={32} height={32} />
+                        <Link href="https://www.linkedin.com/in/florence-eze-07049223a"><Image src="/linkedin.svg" alt="linkedin" width={32} height={32} /></Link>
+                        <Link href=" https://www.behance.net/florenceeze1"><Image src="/behance.svg" alt="behance" width={32} height={32} /></Link>
+                        <Link href="https://dribbble.com/janeyrexx"><Image src="/dribble.svg" alt="dribble" width={32} height={32} /></Link>
+                        <Link href="mailto:florencekey22@gmail.com"><Image src="/mail.svg" alt="mail" width={32} height={32} /></Link>
                     </div>
                 </div>
             </div>
