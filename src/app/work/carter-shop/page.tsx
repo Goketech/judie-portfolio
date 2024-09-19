@@ -5,7 +5,7 @@ function Work() {
     return (
         <div className="mx-[22px] md:mx-[100px]">
             <Link href="/">
-                <div className="cursor-pointer border border-[#333333] p-[12px] rounded-[8px] w-[56px] mb-[40px]">
+                <div className="cursor-pointer border border-[#333333] bg-[#1a1a1a] transition-colors duration-300 hover:bg-transparent p-[12px] rounded-[8px] w-[56px] mb-[40px]">
                     <Image src="/arrow-left.svg" alt="arrow" width={32} height={32} />
                 </div>
             </Link>

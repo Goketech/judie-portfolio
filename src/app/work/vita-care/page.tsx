@@ -6,7 +6,7 @@ function Work() {
         <>
             <div className="mx-[22px] md:mx-[100px]">
                 <Link href="/">
-                    <div className="cursor-pointer border border-[#333333] p-[12px] rounded-[8px] w-[56px] mb-[40px]">
+                    <div className="cursor-pointer border border-[#333333] bg-[#1a1a1a] transition-colors duration-300 hover:bg-transparent p-[12px] rounded-[8px] w-[56px] mb-[40px]">
                         <Image src="/arrow-left.svg" alt="arrow" width={32} height={32} />
                     </div>
                 </Link>
@@ -37,7 +37,7 @@ function Work() {
             </div>
             <div className="flex flex-col items-center mt-[100px] mb-[100px]">
                 <h2 className="text-[32px] font-medium leading-[48px]">View full case study</h2>
-                <Link href="https://www.behance.net/gallery/200695789/Vitacare-Healthcare-App-Design-UIUX-Case-Study"><button className="bg-[#222222] border border-white px-[16px] py-[12px] rounded-[300px] mt-[24px] text-[#FAFAFA]">view casestudy</button></Link>
+                <Link href="https://www.behance.net/gallery/200695789/Vitacare-Healthcare-App-Design-UIUX-Case-Study"><button className="bg-[#222222] transition-colors duration-300 hover:bg-transparent border border-white px-[16px] py-[12px] rounded-[300px] mt-[24px] text-[#FAFAFA]">view casestudy</button></Link>
             </div>
         </>
     );
