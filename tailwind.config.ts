@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        "jarkata-sans": "var(--font-jakarta-sans)",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
