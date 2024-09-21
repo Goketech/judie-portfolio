@@ -14,7 +14,7 @@ const About = () => {
           </p>
         </div>
         <div>
-          <Image className="rounded-xl" src="/me.jpg" alt="about-image" width={431} height={448} />
+          <Image className="rounded-xl max-h-[448px]" src="/me.jpg" alt="about-image" width={431} height={448} />
         </div>
       </div>
     </div>
